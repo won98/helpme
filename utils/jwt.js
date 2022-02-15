@@ -17,6 +17,7 @@ const creatRefreshToken = (payload) => {
   });
   return retoken;
 };
+console.log("ACCESS_KEY", "REFRESH_KEY");
 
 module.exports = { createToken, creatRefreshToken };
 // 암호를 못품
